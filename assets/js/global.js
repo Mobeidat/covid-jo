@@ -4,13 +4,9 @@ async function getDataAll() {
 
     const response = await fetch(api_url_all);
     const data = await response.json();
-
-    $(".tConfirmedAll").text(data.cases);
-    $(".tDeathsAll").text(data.deaths);
-    $(".tRecoveredAll").text(data.recovered);
-
-        }
-
-        getDataAll();
+    $(".allCases").text(data.cases);
+    $(".allDeaths").text(data.deaths);
+    $(".allRecovered").text(data.recovered);}
+		getDataAll();
 
         
