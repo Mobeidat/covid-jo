@@ -1,4 +1,4 @@
-const api_url_all = 'https://corona.lmao.ninja/all';
+const api_url_all = 'https://corona.lmao.ninja/v2/all';
 	
 async function getDataAll() {
 

@@ -1,4 +1,4 @@
-const api_url = 'https://corona.lmao.ninja/countries/jordan';
+const api_url = 'https://corona.lmao.ninja/v2/countries/jordan';
 	
 async function getData() {
 
